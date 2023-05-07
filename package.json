@@ -1,0 +1,22 @@
+{
+  "name": "notion-yt-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JorbFreire/notion-yt-list",
+  "author": "JorbFreire",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.1.0",
+    "axios": "^0.27.2",
+    "googleapis": "^118.0.0"
+  }
+}
